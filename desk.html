@@ -8,7 +8,7 @@
 async function getFile() {
   let myPromise = new Promise(function(resolve) {
     let req = new XMLHttpRequest();
-    req.open('GET', "index.html");
+    req.open('GET', "Portfolio.html");
     req.onload = function() {
       if (req.status == 200) {
         resolve(req.response);
